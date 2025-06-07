@@ -7,8 +7,8 @@ import Printer from "../../../assets/print.svg";
 import FileText from "../../../assets/quotation.svg";
 import Building from "../../../assets/multiTask.svg";
 import Settings from "../../../assets/multiTask.svg";
-
 import FeatureCard from "./FeatureCard";
+import FeatureShape from "./FeatureShape";
 const featuresData = [
   {
     id: 1,
@@ -62,11 +62,14 @@ const featuresData = [
 ];
 const FeatureCardsGrid = () => {
   return (
-    <div className="flex flex-wrap justify-center items-center gap-6 sm:gap-8 xl:gap-10 px-5 ">
-      {featuresData.map((feature) => (
-        <FeatureCard key={feature.id} feature={feature} />
-      ))}
-    </div>
+    <section className="relative w-full overflow-hidden mb-20">
+     <FeatureShape/>
+      <div className="flex flex-wrap gap-[22px] justify-center w-[70%] mx-auto relative z-20">
+        {featuresData.map((feature) => (
+          <FeatureCard key={feature.id} feature={feature} />
+        ))}
+      </div>
+    </section>
   );
 };
 export default FeatureCardsGrid;
