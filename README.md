@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+HisabKitab
+HisabKitab is a front-end task built using Next.js and Tailwind CSS. It is designed to be fully responsive, ensuring a seamless user experience across all screen sizes, from mobile devices to desktops.
+Overview
+HisabKitab is a lightweight and user-friendly application tailored for efficient task management and calculations. Leveraging the power of Next.js for server-side rendering and static site generation, combined with Tailwind CSS for a sleek and responsive design, it provides an intuitive interface for users to manage their tasks effortlessly.
+Features
+Responsive Design: Optimized for all screen sizes, ensuring accessibility on mobile, tablet, and desktop devices.
+Next.js Framework: Utilizes Next.js for fast performance and SEO-friendly rendering.
+Tailwind CSS Styling: Modern, utility-first CSS framework for clean and customizable UI.
+User-Friendly: Simple and intuitive interface for easy navigation and task management.
 
-## Getting Started
+Getting Started
+To use HisabKitab, follow these steps:
+Prerequisites
 
-First, run the development server:
+Node.js (version 14 or higher)
+npm or Yarn
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Installation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Clone the repository:git clone https://github.com/your-username/hisabkitab.git
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Navigate to the project directory:cd hisabkitab
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Install dependencies:npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+oryarn install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+Run the development server:npm run dev
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+oryarn dev
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+Open your browser and visit http://localhost:3000 to see the application in action.
+
+Usage
+
+Access the App: Open the app in any modern web browser.
+Manage Tasks: Use the intuitive interface to add, edit, or delete tasks as needed.
+Responsive Experience: Access the app from any device (mobile, tablet, or desktop) for a consistent experience.
+
+Contributing
+Contributions are welcome! To contribute:
+
+Fork the repository.
+Create a new branch (git checkout -b feature/your-feature).
+Make your changes and commit (git commit -m "Add your feature").
+Push to the branch (git push origin feature/your-feature).
+Open a Pull Request.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+Contact
+For any questions or suggestions, feel free to open an issue or contact the maintainer at your-email@example.com.
